@@ -8,11 +8,11 @@ Codebase for assessing the ecological impacts of global solar (photovoltaic) and
 
 | Step | Folder | Description |
 |------|--------|-------------|
-| 1 | `step1.计算土地覆盖` | Land cover analysis of wind and solar installations (GEE + local processing, FROM_GLC / ESRI land cover sources) |
-| 2 | `step2.计算发电潜力` | Power generation potential: solar PV (`step2.1计算光伏发电潜力`) and wind (`step3.2计算风电发电潜力`), plus a PV-vs-wind comparison |
-| 3 | `step3.计算碳损失` | Carbon loss: soil carbon (`3.1土壤碳损失计算`), biomass carbon (`3.2计算生物碳损失`), manufacturing carbon (`3.3制造碳的计算`), total carbon loss & sensitivity experiment (`3.4计算总的碳损失(敏感性实验)`), and decomposition by land cover type (`3.5按土地覆盖类型分解`) |
-| 4 | `step4.碳回本计算` | Carbon payback time: with grid emission factors (`4.1考虑电网排放因子`), without (`4.2不考虑电网排放因子`), and their comparison (`4.3对比考虑不考虑电网排放因子`) |
-| 5 | `step5.制图` | Figure generation: land cover figures (`figure2.土地覆盖`), carbon loss figures (`figure3.碳损失`), carbon payback figures (`figure4.碳回本`), and grid/payback figure (`figure5.电网与碳回本`) |
+| 1 | `step1_land_cover` | Land cover analysis of wind and solar installations (GEE + local processing, FROM_GLC / ESRI land cover sources) |
+| 2 | `step2_generation_potential` | Power generation potential: solar PV (`step2.1计算光伏发电潜力`) and wind (`step3.2计算风电发电潜力`), plus a PV-vs-wind comparison |
+| 3 | `step3_carbon_loss` | Carbon loss: soil carbon (`3.1土壤碳损失计算`), biomass carbon (`3.2计算生物碳损失`), manufacturing carbon (`3.3制造碳的计算`), total carbon loss & sensitivity experiment (`3.4计算总的碳损失(敏感性实验)`), and decomposition by land cover type (`3.5按土地覆盖类型分解`) |
+| 4 | `step4_carbon_payback` | Carbon payback time: with grid emission factors (`4.1考虑电网排放因子`), without (`4.2不考虑电网排放因子`), and their comparison (`4.3对比考虑不考虑电网排放因子`) |
+| 5 | `step5_figures` | Figure generation: land cover figures (`figure2.土地覆盖`), carbon loss figures (`figure3.碳损失`), carbon payback figures (`figure4.碳回本`), and grid/payback figure (`figure5.电网与碳回本`) |
 
 ## Workflow
 
@@ -30,19 +30,19 @@ Codebase for assessing the ecological impacts of global solar (photovoltaic) and
 
 | File | Description |
 |------|-------------|
-| `公式计算.md` | Key formulas used in the assessment |
-| `step1.计算土地覆盖\2光伏发电\光伏发电潜力计算规则.md` | Rules for computing solar PV potential |
-| `step2.计算发电潜力\step2.1计算光伏发电潜力\光伏发电计算方法.md` | Method for computing PV electricity generation |
-| `step2.计算发电潜力\step2.1计算光伏发电潜力\光伏发电潜力计算规则.md` | Rules for computing PV potential (step-2 copy) |
-| `step2.计算发电潜力\step3.2计算风电发电潜力\风电发电能力计算方法.md` | Method for computing wind power generation |
-| `step2.计算发电潜力\step3.2计算风电发电潜力\风电发电能力计算规则.md` | Rules for computing wind power generation |
-| `step2.计算发电潜力\step3.2计算风电发电潜力\光伏和风能对比结果.md` | PV-vs-wind comparison results |
-| `step1.计算土地覆盖\土地覆盖补充信息.md` | Supplementary notes on land cover classes |
-| `step3.计算碳损失\3.1土壤碳损失计算\3.1.2计算光伏土壤碳\输出数据的格式和单位.md` | Output data format and units |
+| `formula_calculation.md` | Key formulas used in the assessment |
+| `step1_land_cover\2光伏发电\光伏发电潜力计算规则.md` | Rules for computing solar PV potential |
+| `step2_generation_potential\step2.1计算光伏发电潜力\光伏发电计算方法.md` | Method for computing PV electricity generation |
+| `step2_generation_potential\step2.1计算光伏发电潜力\光伏发电潜力计算规则.md` | Rules for computing PV potential (step-2 copy) |
+| `step2_generation_potential\step3.2计算风电发电潜力\风电发电能力计算方法.md` | Method for computing wind power generation |
+| `step2_generation_potential\step3.2计算风电发电潜力\风电发电能力计算规则.md` | Rules for computing wind power generation |
+| `step2_generation_potential\step3.2计算风电发电潜力\光伏和风能对比结果.md` | PV-vs-wind comparison results |
+| `step1_land_cover\土地覆盖补充信息.md` | Supplementary notes on land cover classes |
+| `step3_carbon_loss\3.1土壤碳损失计算\3.1.2计算光伏土壤碳\输出数据的格式和单位.md` | Output data format and units |
 
 ## Data & Dependencies
 
-- **Grid emission factors**: `Grid_Emission_Factors_2021.csv` (in `step4.碳回本计算\4.1考虑电网排放因子\Grid_Emission_Factors_2021.csv`) is a small parameter table of regional grid emission factors used by the carbon-payback calculation. All other data (land cover rasters, soil carbon, biomass carbon, GEE assets, meteorological data) must be prepared/downloaded separately — see the individual scripts and GEE code for the exact data sources.
+- **Grid emission factors**: `Grid_Emission_Factors_2021.csv` (in `step4_carbon_payback\4.1考虑电网排放因子\Grid_Emission_Factors_2021.csv`) is a small parameter table of regional grid emission factors used by the carbon-payback calculation. All other data (land cover rasters, soil carbon, biomass carbon, GEE assets, meteorological data) must be prepared/downloaded separately — see the individual scripts and GEE code for the exact data sources.
 - **GEE**: Several Step-1 scripts run inside Google Earth Engine (`.js`); the Python scripts assume the corresponding GEE exports have already been downloaded.
 - **Python environment**: scripts are written for Python 3.x and rely on common geospatial packages: `gdal`/`rasterio`, `geopandas`, `numpy`, `pandas`, `matplotlib` (plus `earthengine-api` where needed). Each script is self-contained; run them in the order indicated by their leading numbers within each folder.
 
