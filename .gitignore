@@ -1,0 +1,124 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ===== 论文数据与中间产物（不纳入版本控制）=====
+# 结果数据目录
+结果数据/
+
+# 中间数据 / 图片 / 日志 / 栅格 / 矢量
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.txt
+*.text
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.zip
+*.xml
+*.log
+*.tif
+*.tiff
+*.nc
+*.html
+
+# 但保留电网排放因子输入参数（代码核心输入）
+!**/Grid_Emission_Factors_2021.csv
+
+# ===== 论文正文草稿（不公开，仅本地保留）=====
+文章初稿_2026.01.28.md
+文章大纲.md
+文章大纲_第二版_2026.01.04.md
+需要的图集.md

@@ -1,0 +1,233 @@
+Country,Combined_Margin_gCO2_kWh,Intermittent_Energy_gCO2_kWh
+"Afghanistan",193,193
+"Albania",0,0
+"Algeria",397,397
+"American Samoa (U.S.)",516,516
+"Andorra",70,70
+"Angola",748,748
+"Anguilla (U.K.)",472,472
+"Antigua and Barbuda",489,489
+"Argentina",288,288
+"Armenia",205,205
+"Aruba",421,421
+"Australia",421,421
+"Austria",113,113
+"Azerbaijan",384,384
+"Azores (Portugal)",384,384
+"Bahamas",441,441
+"Bahrain",454,454
+"Bangladesh",412,412
+"Barbados",484,484
+"Belarus",292,292
+"Belgium",124,124
+"Belize",183,183
+"Benin",576,576
+"Bermuda (U.K.)",342,342
+"Bhutan",0,0
+"Bolivia, Plurinational State of",393,393
+"Bonaire (Netherland)",400,400
+"Bosnia and Herzegovina",739,739
+"Botswana",1070,1070
+"Brazil",150,150
+"British Virgin Islands (U.K.)",420,420
+"Brunei Darussalam",407,407
+"Bulgaria",495,495
+"Burkina Faso",539,539
+"Burundi",197,197
+"Cambodia",588,588
+"Cameroon",354,354
+"Canada",213,213
+"Canary Islands (Spain)",435,435
+"Cape Verde",505,505
+"Cayman Islands",373,373
+"Central African Republic",77,77
+"Chad",581,581
+"Channel Islands (U.K)",389,389
+"Chile",235,235
+"China (PRC and Hong Kong)",485,485
+"Colombia",208,208
+"Comoros",589,589
+"Cong, Democratic Republic of",0,0
+"Congo, Republic of",405,405
+"Cook Islands",422,422
+"Costa Rica",39,39
+"Côte d'Ivoire",314,314
+"Croatia",168,168
+"Cuba",391,391
+"Curacao/Netherlands Antilles",506,506
+"Cyprus",438,438
+"Czech Republic",461,461
+"Denmark",155,155
+"Djibouti",575,575
+"Dominica",433,433
+"Dominican Republic",426,426
+"Ecuador",280,280
+"Egypt",406,406
+"El Salvador",275,275
+"Equatorial Guinea",361,361
+"Eritrea",704,704
+"Estonia",625,625
+"Eswatini",0,0
+"Ethiopia",0,0
+"Falkland Islands (U.K.)",316,316
+"Faroe Islands (Denmark)",320,320
+"Fiji",334,334
+"Finland",114,114
+"France",68,68
+"French Guiana",200,200
+"French Polynesia",412,412
+"Gabon",533,533
+"Gambia",591,591
+"Georgia",135,135
+"Germany",313,313
+"Ghana",276,276
+"Gibraltar (U.K.)",369,369
+"Greece",346,346
+"Greenland",105,105
+"Grenada",523,523
+"Guadeloupe (France)",433,433
+"Guam",428,428
+"Guatemala",427,427
+"Guinea",460,460
+"Guinea-Bissau",577,577
+"Guyana",616,616
+"Haiti",765,765
+"Honduras",359,359
+"Hungary",191,191
+"Iceland",0,0
+"India",608,608
+"Indonesia",675,675
+"Iran, Islamic Republic of",421,421
+"Iraq",788,788
+"Ireland",189,189
+"Isle of Man (U.K.)",204,204
+"Israel",258,258
+"Italy",224,224
+"Jamaica",498,498
+"Japan",408,408
+"Jordan",382,382
+"Kazakhstan",532,532
+"Kenya",274,274
+"Kiribati",530,530
+"Korea (North), Democratic People's Republic of",359,359
+"Korea (South), Republic of",335,335
+"Kosovo",843,843
+"Kuwait",400,400
+"Kyrgyzstan",98,98
+"Lao People's Democratic Republic",555,555
+"Latvia",117,117
+"Lebanon",567,567
+"Lesotho",0,0
+"Liberia",374,374
+"Libya",493,493
+"Liechtenstein",52,52
+"Lithuania",102,102
+"Luxembourg",95,95
+"Madagascar",567,567
+"Madeira (Portugal)",369,369
+"Malawi",243,243
+"Malaysia",436,436
+"Maldives",524,524
+"Mali",623,623
+"Malta",295,295
+"Marshall Islands",561,561
+"Martinique (France)",406,406
+"Mauritania",513,513
+"Mauritius",543,543
+"Mayotte (France)",512,512
+"Mexico",359,359
+"Micronesia",557,557
+"Moldova, Republic of",399,399
+"Monaco",68,68
+"Mongolia",1002,1002
+"Montenegro",471,471
+"Montserrat",517,517
+"Morocco",547,547
+"Mozambique",111,111
+"Myanmar",407,407
+"Namibia",139,139
+"Nauru",521,521
+"Nepal",0,0
+"Netherlands",203,203
+"New Caledonia (France)",445,445
+"New Zealand",108,108
+"Nicaragua",372,372
+"Niger",718,718
+"Nigeria",358,358
+"Niue",459,459
+"North Macedonia, Republic of",563,563
+"Northern Mariana Islands (U.S.)",416,416
+"Norway",17,17
+"Oman",320,320
+"Pakistan",386,386
+"Palau",497,497
+"Palestinian Authority",517,517
+"Panama",230,230
+"Papua New Guinea",315,315
+"Paraguay",0,0
+"Peru",252,252
+"Philippines",525,525
+"Poland",532,532
+"Portugal",228,228
+"Puerto Rico (U.S.)",362,362
+"Qatar",258,258
+"Reunion (France)",421,421
+"Romania",289,289
+"Russian Federation",360,360
+"Rwanda",416,416
+"Saint Helena (U.K.)",456,456
+"Saint Kitts and Nevis",477,477
+"Saint Lucia",521,521
+"Saint Martin (France)",484,484
+"Saint Pierre and Miquelon (France)",415,415
+"Saint Vincent and Grenadines",499,499
+"Samoa",434,434
+"San Marino",224,224
+"Sao Tomé & Principe",565,565
+"Saudi Arabia",374,374
+"Senegal",656,656
+"Serbia",678,678
+"Seychelles",479,479
+"Sierra Leone",246,246
+"Singapore",200,200
+"Sint Martin (Netherlands)",463,463
+"Slovak Republic",164,164
+"Slovenia",285,285
+"Solomon Islands",563,563
+"Somalia",582,582
+"South Africa",786,786
+"South Sudan",704,704
+"Spain",209,209
+"Sri Lanka",506,506
+"Sudan",398,398
+"Suriname",565,565
+"Sweden",25,25
+"Switzerland",20,20
+"Syrian Arab Republic",546,546
+"Taiwan (Chinese Taipei)",331,331
+"Tajikistan",106,106
+"Tanzania, United Republic of",336,336
+"Thailand",351,351
+"Timor-Leste",589,589
+"Togo",597,597
+"Tonga",533,533
+"Trinidad and Tobago",370,370
+"Tunisia",348,348
+"Turkey",309,309
+"Turkmenistan",676,676
+"Turks and Caicos Islands (U.K.)",451,451
+"Tuvalu",497,497
+"Uganda",116,116
+"Ukraine",435,435
+"United Arab Emirates",310,310
+"United Kingdom",219,219
+"United States",246,246
+"Uruguay",65,65
+"Uzbekistan",467,467
+"Vanatu",504,504
+"Venezuela, Bolivarian Republic of",368,368
+"Viet Nam",381,381
+"Virgin Islands (U.S.)",373,373
+"Yemen",615,615
+"Zambia",197,197
+"Zimbabwe",880,880
